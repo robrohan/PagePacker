@@ -1,7 +1,7 @@
 
 # PagePacker
 
-PagePacker was an application written in the early 2000s that let you build little pocket sized notebooks. It was put out by _Big Nerd Ranch_ and written by _Aaron Hillegass_.
+PagePacker was an application written in the early 2000s that let you build little pocket sized notebooks. It was put out by _Big Nerd Ranch_ and written by _Aaron Hillegass_. [Original Post](https://www.bignerdranch.com/blog/pagepacker-makes-pocket-sized-books/)
 
 I had found the application quite useful, for on-the-go-notes and making little pocket zines. 
 
