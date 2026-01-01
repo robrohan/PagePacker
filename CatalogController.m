@@ -52,7 +52,7 @@ CatalogController *sharedCatalogController;
 
 - (void)windowDidLoad
 {
-    NSString *path = [[NSBundle mainBundle] pathForResource:@"pages2"
+    NSString *path = [[NSBundle mainBundle] pathForResource:@"pages2026"
                                                      ofType:@"pdf"];
     if (!path) {
         NSLog(@"No path for pdf");
