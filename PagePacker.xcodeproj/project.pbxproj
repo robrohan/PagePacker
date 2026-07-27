@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		8D15AC2C0486D014006FF6A4 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 2A37F4B9FDCFA73011CA2CEA /* Credits.rtf */; };
-		8D15AC2D0486D014006FF6A4 /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 2A37F4B6FDCFA73011CA2CEA /* MainMenu.nib */; };
-		8D15AC2E0486D014006FF6A4 /* MyDocument.nib in Resources */ = {isa = PBXBuildFile; fileRef = 2A37F4B4FDCFA73011CA2CEA /* MyDocument.nib */; };
+		8D15AC2D0486D014006FF6A4 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A37F4B6FDCFA73011CA2CEA /* MainMenu.xib */; };
+		8D15AC2E0486D014006FF6A4 /* MyDocument.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A37F4B4FDCFA73011CA2CEA /* MyDocument.xib */; };
 		8D15AC2F0486D014006FF6A4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165FFE840EACC02AAC07 /* InfoPlist.strings */; };
 		8D15AC310486D014006FF6A4 /* MyDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A37F4ACFDCFA73011CA2CEA /* MyDocument.m */; settings = {ATTRIBUTES = (); }; };
 		8D15AC320486D014006FF6A4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A37F4B0FDCFA73011CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
@@ -18,7 +18,7 @@
 		9308F5470B503BDD006E5260 /* DraggingSourcePDFView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9308F5440B503BDD006E5260 /* DraggingSourcePDFView.m */; };
 		9308F5480B503BDD006E5260 /* GeometryUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 9308F5460B503BDD006E5260 /* GeometryUtilities.m */; };
 		9308F54D0B503BF8006E5260 /* Generic.icns in Resources */ = {isa = PBXBuildFile; fileRef = 9308F54A0B503BF8006E5260 /* Generic.icns */; };
-		9308F5520B503C56006E5260 /* CatalogController.nib in Resources */ = {isa = PBXBuildFile; fileRef = 9308F5500B503C56006E5260 /* CatalogController.nib */; };
+		9308F5520B503C56006E5260 /* CatalogController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9308F5500B503C56006E5260 /* CatalogController.xib */; };
 		9308F5570B503D66006E5260 /* AppController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9308F5560B503D66006E5260 /* AppController.m */; };
 		9308F59C0B504045006E5260 /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9308F59B0B504045006E5260 /* Quartz.framework */; };
 		9308F62C0B50439B006E5260 /* PagePackerHelp in Resources */ = {isa = PBXBuildFile; fileRef = 9308F6150B50439B006E5260 /* PagePackerHelp */; };
@@ -26,15 +26,13 @@
 		9308F6700B5045A0006E5260 /* PackerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9308F66F0B5045A0006E5260 /* PackerView.m */; };
 		9308F6840B5047C8006E5260 /* PackModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9308F6830B5047C8006E5260 /* PackModel.m */; };
 		9308FC4B0B527BA6006E5260 /* PPApp.icns in Resources */ = {isa = PBXBuildFile; fileRef = 9308FC4A0B527BA6006E5260 /* PPApp.icns */; };
-		9308FCFA0B5441B4006E5260 /* PreferenceController.nib in Resources */ = {isa = PBXBuildFile; fileRef = 9308FCF80B5441B4006E5260 /* PreferenceController.nib */; };
+		9308FCFA0B5441B4006E5260 /* PreferenceController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9308FCF80B5441B4006E5260 /* PreferenceController.xib */; };
 		9308FCFE0B544223006E5260 /* PreferenceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9308FCFD0B544223006E5260 /* PreferenceController.m */; };
 		933B04150B557C67002BAEA4 /* RoundCloseButtonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 933B04140B557C67002BAEA4 /* RoundCloseButtonCell.m */; };
 		933B08A90B572176002BAEA4 /* PagePacker.sdef in Resources */ = {isa = PBXBuildFile; fileRef = 933B08A80B572176002BAEA4 /* PagePacker.sdef */; };
 		933B08B00B57218C002BAEA4 /* Scriptability.m in Sources */ = {isa = PBXBuildFile; fileRef = 933B08AF0B57218C002BAEA4 /* Scriptability.m */; };
-		9380F1A616C056EF00929BD9 /* pages2.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9380F1A516C056EF00929BD9 /* pages2.pdf */; };
 		93838D350B7146590049601D /* TextDisplayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 93838D340B7146590049601D /* TextDisplayView.m */; };
 		93A546220B7100C200DE2080 /* PDFUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 93A546210B7100C200DE2080 /* PDFUtility.m */; };
-		93E2BA2B0D84C14C00B41D2A /* pages.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 93E2BA2A0D84C14C00B41D2A /* pages.pdf */; };
 		DA341CB92F064DE70025B7BD /* pages2026.pdf in Resources */ = {isa = PBXBuildFile; fileRef = DA341CB82F064DE70025B7BD /* pages2026.pdf */; };
 /* End PBXBuildFile section */
 
@@ -45,8 +43,10 @@
 		2A37F4ACFDCFA73011CA2CEA /* MyDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyDocument.m; sourceTree = "<group>"; };
 		2A37F4AEFDCFA73011CA2CEA /* MyDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyDocument.h; sourceTree = "<group>"; };
 		2A37F4B0FDCFA73011CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		2A37F4B5FDCFA73011CA2CEA /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/MyDocument.nib; sourceTree = "<group>"; };
-		2A37F4B7FDCFA73011CA2CEA /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		2A37F4B5FDCFA73011CA2CEA /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MyDocument.xib; sourceTree = "<group>"; };
+		2A37F4B7FDCFA73011CA2CEA /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		CC97ECC3FDEC74C95D375FC8 /* Japanese */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Japanese; path = Japanese.lproj/MyDocument.xib; sourceTree = "<group>"; };
+		D3E224D04719DBCC26E95A69 /* Japanese */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Japanese; path = Japanese.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		2A37F4BAFDCFA73011CA2CEA /* English */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = English; path = English.lproj/Credits.rtf; sourceTree = "<group>"; };
 		2A37F4C4FDCFA73011CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		2A37F4C5FDCFA73011CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
@@ -60,7 +60,7 @@
 		9308F5450B503BDD006E5260 /* GeometryUtilities.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = GeometryUtilities.h; sourceTree = "<group>"; };
 		9308F5460B503BDD006E5260 /* GeometryUtilities.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = GeometryUtilities.m; sourceTree = "<group>"; };
 		9308F54A0B503BF8006E5260 /* Generic.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Generic.icns; sourceTree = "<group>"; };
-		9308F5510B503C56006E5260 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/CatalogController.nib; sourceTree = "<group>"; };
+		9308F5510B503C56006E5260 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/CatalogController.xib; sourceTree = "<group>"; };
 		9308F5550B503D66006E5260 /* AppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppController.h; sourceTree = "<group>"; };
 		9308F5560B503D66006E5260 /* AppController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppController.m; sourceTree = "<group>"; };
 		9308F59B0B504045006E5260 /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = /System/Library/Frameworks/Quartz.framework; sourceTree = "<absolute>"; };
@@ -72,7 +72,7 @@
 		9308F6820B5047C8006E5260 /* PackModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PackModel.h; sourceTree = "<group>"; };
 		9308F6830B5047C8006E5260 /* PackModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PackModel.m; sourceTree = "<group>"; };
 		9308FC4A0B527BA6006E5260 /* PPApp.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = PPApp.icns; sourceTree = "<group>"; };
-		9308FCF90B5441B4006E5260 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/PreferenceController.nib; sourceTree = "<group>"; };
+		9308FCF90B5441B4006E5260 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/PreferenceController.xib; sourceTree = "<group>"; };
 		9308FCFC0B544223006E5260 /* PreferenceController.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = PreferenceController.h; sourceTree = "<group>"; };
 		9308FCFD0B544223006E5260 /* PreferenceController.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = PreferenceController.m; sourceTree = "<group>"; };
 		933B04130B557C67002BAEA4 /* RoundCloseButtonCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoundCloseButtonCell.h; sourceTree = "<group>"; };
@@ -80,12 +80,10 @@
 		933B08A80B572176002BAEA4 /* PagePacker.sdef */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.sdef; path = PagePacker.sdef; sourceTree = "<group>"; };
 		933B08AE0B57218C002BAEA4 /* Scriptability.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = Scriptability.h; sourceTree = "<group>"; };
 		933B08AF0B57218C002BAEA4 /* Scriptability.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = Scriptability.m; sourceTree = "<group>"; };
-		9380F1A516C056EF00929BD9 /* pages2.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = pages2.pdf; sourceTree = "<group>"; };
 		93838D330B7146590049601D /* TextDisplayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextDisplayView.h; sourceTree = "<group>"; };
 		93838D340B7146590049601D /* TextDisplayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextDisplayView.m; sourceTree = "<group>"; };
 		93A546200B7100C200DE2080 /* PDFUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDFUtility.h; sourceTree = "<group>"; };
 		93A546210B7100C200DE2080 /* PDFUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDFUtility.m; sourceTree = "<group>"; };
-		93E2BA2A0D84C14C00B41D2A /* pages.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = pages.pdf; sourceTree = "<group>"; };
 		DA341CB82F064DE70025B7BD /* pages2026.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = pages2026.pdf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -150,7 +148,7 @@
 			children = (
 				9308F5550B503D66006E5260 /* AppController.h */,
 				9308F5560B503D66006E5260 /* AppController.m */,
-				2A37F4B6FDCFA73011CA2CEA /* MainMenu.nib */,
+				2A37F4B6FDCFA73011CA2CEA /* MainMenu.xib */,
 			);
 			name = Main;
 			sourceTree = "<group>";
@@ -190,13 +188,11 @@
 			isa = PBXGroup;
 			children = (
 				DA341CB82F064DE70025B7BD /* pages2026.pdf */,
-				93E2BA2A0D84C14C00B41D2A /* pages.pdf */,
-				9380F1A516C056EF00929BD9 /* pages2.pdf */,
 				9308F4F80B503A78006E5260 /* CatalogController.h */,
 				9308F4F90B503A78006E5260 /* CatalogController.m */,
 				9308F5430B503BDD006E5260 /* DraggingSourcePDFView.h */,
 				9308F5440B503BDD006E5260 /* DraggingSourcePDFView.m */,
-				9308F5500B503C56006E5260 /* CatalogController.nib */,
+				9308F5500B503C56006E5260 /* CatalogController.xib */,
 			);
 			name = Catalog;
 			sourceTree = "<group>";
@@ -220,7 +216,7 @@
 				9308F6600B5044BF006E5260 /* PageInfo.m */,
 				933B04130B557C67002BAEA4 /* RoundCloseButtonCell.h */,
 				933B04140B557C67002BAEA4 /* RoundCloseButtonCell.m */,
-				2A37F4B4FDCFA73011CA2CEA /* MyDocument.nib */,
+				2A37F4B4FDCFA73011CA2CEA /* MyDocument.xib */,
 			);
 			name = Document;
 			sourceTree = "<group>";
@@ -230,7 +226,7 @@
 			children = (
 				9308FCFC0B544223006E5260 /* PreferenceController.h */,
 				9308FCFD0B544223006E5260 /* PreferenceController.m */,
-				9308FCF80B5441B4006E5260 /* PreferenceController.nib */,
+				9308FCF80B5441B4006E5260 /* PreferenceController.xib */,
 			);
 			name = Preference;
 			sourceTree = "<group>";
@@ -287,6 +283,7 @@
 			knownRegions = (
 				English,
 				en,
+				Japanese,
 			);
 			mainGroup = 2A37F4AAFDCFA73011CA2CEA /* PagePacker */;
 			projectDirPath = "";
@@ -303,18 +300,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D15AC2C0486D014006FF6A4 /* Credits.rtf in Resources */,
-				8D15AC2D0486D014006FF6A4 /* MainMenu.nib in Resources */,
-				8D15AC2E0486D014006FF6A4 /* MyDocument.nib in Resources */,
+				8D15AC2D0486D014006FF6A4 /* MainMenu.xib in Resources */,
+				8D15AC2E0486D014006FF6A4 /* MyDocument.xib in Resources */,
 				8D15AC2F0486D014006FF6A4 /* InfoPlist.strings in Resources */,
 				9308F54D0B503BF8006E5260 /* Generic.icns in Resources */,
-				9308F5520B503C56006E5260 /* CatalogController.nib in Resources */,
+				9308F5520B503C56006E5260 /* CatalogController.xib in Resources */,
 				9308F62C0B50439B006E5260 /* PagePackerHelp in Resources */,
 				9308FC4B0B527BA6006E5260 /* PPApp.icns in Resources */,
-				9308FCFA0B5441B4006E5260 /* PreferenceController.nib in Resources */,
+				9308FCFA0B5441B4006E5260 /* PreferenceController.xib in Resources */,
 				933B08A90B572176002BAEA4 /* PagePacker.sdef in Resources */,
-				93E2BA2B0D84C14C00B41D2A /* pages.pdf in Resources */,
 				DA341CB92F064DE70025B7BD /* pages2026.pdf in Resources */,
-				9380F1A616C056EF00929BD9 /* pages2.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -353,20 +348,22 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		2A37F4B4FDCFA73011CA2CEA /* MyDocument.nib */ = {
+		2A37F4B4FDCFA73011CA2CEA /* MyDocument.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				2A37F4B5FDCFA73011CA2CEA /* English */,
+				CC97ECC3FDEC74C95D375FC8 /* Japanese */,
 			);
-			name = MyDocument.nib;
+			name = MyDocument.xib;
 			sourceTree = "<group>";
 		};
-		2A37F4B6FDCFA73011CA2CEA /* MainMenu.nib */ = {
+		2A37F4B6FDCFA73011CA2CEA /* MainMenu.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				2A37F4B7FDCFA73011CA2CEA /* English */,
+				D3E224D04719DBCC26E95A69 /* Japanese */,
 			);
-			name = MainMenu.nib;
+			name = MainMenu.xib;
 			sourceTree = "<group>";
 		};
 		2A37F4B9FDCFA73011CA2CEA /* Credits.rtf */ = {
@@ -377,12 +374,12 @@
 			name = Credits.rtf;
 			sourceTree = "<group>";
 		};
-		9308F5500B503C56006E5260 /* CatalogController.nib */ = {
+		9308F5500B503C56006E5260 /* CatalogController.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				9308F5510B503C56006E5260 /* English */,
 			);
-			name = CatalogController.nib;
+			name = CatalogController.xib;
 			sourceTree = "<group>";
 		};
 		9308F6150B50439B006E5260 /* PagePackerHelp */ = {
@@ -393,12 +390,12 @@
 			name = PagePackerHelp;
 			sourceTree = "<group>";
 		};
-		9308FCF80B5441B4006E5260 /* PreferenceController.nib */ = {
+		9308FCF80B5441B4006E5260 /* PreferenceController.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				9308FCF90B5441B4006E5260 /* English */,
 			);
-			name = PreferenceController.nib;
+			name = PreferenceController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
