@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="24765" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none">
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="24765" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
     <dependencies>
         <deployment version="260000" identifier="macosx"/>
         <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="24765"/>
@@ -14,22 +14,22 @@
             </connections>
         </customObject>
         <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
-        <customObject id="-3" userLabel="Application"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
         <window title="Preferences" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" visibleAtLaunch="NO" animationBehavior="default" id="5" userLabel="Window">
             <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES"/>
             <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
             <rect key="contentRect" x="3" y="868" width="342" height="128"/>
-            <rect key="screenRect" x="0.0" y="0.0" width="1680" height="1028"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="1920" height="1050"/>
             <view key="contentView" id="6">
                 <rect key="frame" x="0.0" y="0.0" width="342" height="128"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <popUpButton imageHugsTitle="YES" verticalHuggingPriority="750" id="7">
+                    <popUpButton imageHugsTitle="YES" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7">
                         <rect key="frame" x="84" y="91" width="202" height="26"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <popUpButtonCell key="cell" type="push" title="Letter (8.5&quot; x 11&quot;)" bezelStyle="rounded" alignment="left" lineBreakMode="truncatingTail" state="on" borderStyle="borderAndBezel" inset="2" arrowPosition="arrowAtCenter" preferredEdge="maxY" selectedItem="10" id="32">
                             <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
-                            <font key="font" metaFont="system"/>
+                            <font key="font" metaFont="message"/>
                             <menu key="menu" title="OtherViews" id="8">
                                 <items>
                                     <menuItem title="Letter (8.5&quot; x 11&quot;)" state="on" id="10"/>
@@ -41,7 +41,7 @@
                             <action selector="paperChosen:" target="-2" id="15"/>
                         </connections>
                     </popUpButton>
-                    <textField verticalHuggingPriority="750" id="12">
+                    <textField focusRingType="none" verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="12">
                         <rect key="frame" x="9" y="97" width="73" height="17"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Paper:" id="33">
@@ -50,14 +50,14 @@
                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                         </textFieldCell>
                     </textField>
-                    <box title="Font for text files" id="20">
+                    <box fixedFrame="YES" title="Font for text files" translatesAutoresizingMaskIntoConstraints="NO" id="20">
                         <rect key="frame" x="9" y="16" width="316" height="65"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <view key="contentView" id="nnd-hf-Pqp">
-                            <rect key="frame" x="2" y="2" width="312" height="48"/>
-                            <autoresizingMask key="autoresizingMask"/>
+                            <rect key="frame" x="0.0" y="0.0" width="316" height="53"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             <subviews>
-                                <button imageHugsTitle="YES" verticalHuggingPriority="750" id="16">
+                                <button imageHugsTitle="YES" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="16">
                                     <rect key="frame" x="207" y="6" width="100" height="32"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <buttonCell key="cell" type="push" title="Change..." bezelStyle="rounded" alignment="center" borderStyle="border" inset="2" id="34">
@@ -68,7 +68,7 @@
                                         <action selector="chooseFont:" target="-2" id="18"/>
                                     </connections>
                                 </button>
-                                <textField verticalHuggingPriority="750" id="17">
+                                <textField focusRingType="none" verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="17">
                                     <rect key="frame" x="11" y="16" width="199" height="17"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Text font:" id="35">
@@ -82,6 +82,7 @@
                     </box>
                 </subviews>
             </view>
+            <point key="canvasLocation" x="293" y="71"/>
         </window>
     </objects>
 </document>
