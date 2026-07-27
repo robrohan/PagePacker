@@ -1,12 +1,13 @@
 # PagePacker
 
-PagePacker was an application written in the early 2000s that let you
-build little pocket sized notebooks. It was originally created by _Big Nerd
-Ranch_ and written by _Aaron Hillegass_. [Original
+PagePacker is a macOS application that helps you build little pocket sized notebooks and physical zines from a single page of paper.
+
+> Don't want to compile it yourself? You can purchase the app directly at [therohans.com/pagepacker/](https://therohans.com/pagepacker/).
+
+PagePacker was written in the early 2000s It was originally created by _Big Nerd Ranch_ and written by _Aaron Hillegass_. [Original
 Post](https://web.archive.org/web/20140617173248/http://www.bignerdranch.com/blog/pagepacker-makes-pocket-sized-books/)
 
-I found the application quite useful, for on-the-go-notes and
-making little pocket zines.
+I found the application quite useful, for on-the-go notes and making little pocket zines for local meetups and conference pamphlets.
 
 Here is what the application looks like:
 
