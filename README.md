@@ -17,6 +17,30 @@ Folding instructions:
 
 ![Folding image](img/folding.jpg)
 
+## Claude Code skill: build a zine automatically
+
+PagePacker is AppleScript-scriptable, so this repo includes a [Claude Code](https://claude.com/claude-code)
+skill (`.claude/skills/zine/`) that turns an HTML report, PDF, or research topic
+into a little 8-panel pocket zine and assembles it in PagePacker for you.
+
+You don't need to check out this repo's source to use it — just PagePacker
+itself installed (from [therohans.com/pagepacker/](https://therohans.com/pagepacker/)
+or wherever you got it) and the skill folder pulled down on its own:
+
+```sh
+mkdir -p ~/.claude/skills/zine
+curl -sL https://github.com/robrohan/PagePacker/archive/refs/heads/master.tar.gz \
+  | tar -xz -C ~/.claude/skills/zine --strip-components=4 PagePacker-master/.claude/skills/zine
+```
+
+That pulls just the skill's files (no Xcode project, no templates, nothing else
+from the source tree) straight into `~/.claude/skills/zine`, so it's available in
+any project you use Claude Code in. If you'd rather it only apply to one project,
+change the `-C` target above to that project's `.claude/skills/zine` instead.
+
+Once it's there, just ask Claude Code something like *"use the zine skill to
+make a pocket zine from this article"* and it'll take it from there.
+
 ## Is this the original?
 
 When I went looking for the application, it seems it had fallen into the void of the internet.
